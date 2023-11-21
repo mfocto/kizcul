@@ -1,0 +1,22 @@
+server:
+  port: 8887
+  servlet:
+    encoding:
+      charset: utf-8
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:  jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postnak
+  jpa:
+    database: postgresql
+    generate-ddl: false
+
+logging:
+  level:
+    root: info
+com:
+  kizcul:
+    secretkey: 8Lnh13aYJFnvc%Rr0VYiwmm4658bam-jfL0Y
